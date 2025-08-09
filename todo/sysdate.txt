@@ -1,0 +1,13 @@
+<h2>Current Date and Time:</h2>
+<p id="dateDisplay"></p>
+
+<script>
+    // Function to get the system date
+    function showDate() {
+        let now = new Date(); // Get the current system date and time
+        document.getElementById("dateDisplay").innerHTML = now;
+    }
+
+    // Call the function when the page loads
+    showDate();
+</script>
